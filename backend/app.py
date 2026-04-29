@@ -35,18 +35,12 @@ def home():
 
 @app.route('/api/balance')
 def balance():
-    try:
-        return jsonify(get_balance())
-    except Exception as e:
-        return jsonify({'error':str(e)}),500
+    return jsonify(get_balance())
 
 
 @app.route('/api/positions')
 def positions():
-    try:
-        return jsonify(get_positions())
-    except Exception as e:
-        return jsonify({'error':str(e)}),500
+    return jsonify(get_positions())
 
 
 @app.route('/api/start', methods=['POST'])
