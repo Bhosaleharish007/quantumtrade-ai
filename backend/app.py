@@ -3,7 +3,7 @@ from flask_cors import CORS
 import threading
 import time
 
-from delta_api import get_balance, get_positions
+from delta_api import get_balance,get_positions
 from strategy_engine import run_strategy
 
 app = Flask(__name__)
