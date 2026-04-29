@@ -1,8 +1,15 @@
 {
 "name":"quantumtrade-ai",
 "version":"1.0.0",
+
+"scripts":{
+"start":"react-scripts start",
+"build":"react-scripts build"
+},
+
 "dependencies":{
 "react":"latest",
-"react-dom":"latest"
+"react-dom":"latest",
+"react-scripts":"latest"
 }
 }
