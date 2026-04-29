@@ -17,8 +17,8 @@ def trading_loop():
 
     while bot_running:
         try:
-            signal = run_strategy()
-            print(f"Signal: {signal}")
+            signal=run_strategy()
+            print(signal)
         except Exception as e:
             print(f"Strategy Error: {e}")
 
